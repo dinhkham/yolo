@@ -709,6 +709,16 @@ a:hover {
     margin-top: 40px;
   }
 }
+@media (min-width: 480px) and (max-width: 767px) {
+  .slider_item {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .product_item {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 @media (max-width: 767px) {
   .slider_content {
     display: none;
@@ -744,6 +754,9 @@ a:hover {
   .owl-dots {
     bottom: -42px;
   }
+  .product_item .title {
+    margin-top: 8px;
+  }
   .col_footer {
     margin-bottom: 20px;
   }
@@ -752,5 +765,8 @@ a:hover {
     padding-bottom: 5px;
     font-size: 14px;
     border-bottom: 3px solid #000;
+  }
+  .footer .logo_footer {
+    margin-bottom: 15px;
   }
 }
