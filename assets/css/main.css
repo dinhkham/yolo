@@ -570,6 +570,7 @@ input::placeholder {
 }
 .cart_box .icon {
   text-align: center;
+  font-size: 34px;
 }
 .icon_mobile_box .cart_box .icon i.bx {
   font-size: 34px;
