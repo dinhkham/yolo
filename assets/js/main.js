@@ -21,18 +21,15 @@ $(function () {
       },
     });
   }
-  var $ww = $(window).width();
-  if ($ww > 1024) {
-    $(window).scroll(function () {
-      var $sticky = $("#header");
-      scroll = $(window).scrollTop();
-      if (scroll >= 35) {
-        $sticky.addClass("fixed");
-      } else {
-        $sticky.removeClass("fixed");
-      }
-    });
-  }
+  $(window).scroll(function () {
+    var $sticky = $("#header");
+    scroll = $(window).scrollTop();
+    if (scroll >= 35) {
+      $sticky.addClass("fixed");
+    } else {
+      $sticky.removeClass("fixed");
+    }
+  });
   $("#sm_menu_ham").click(function () {
     var $this = $(this);
     if ($this.hasClass("open")) {
