@@ -265,8 +265,9 @@ a:hover {
 .top_icon_box {
   font-size: 26px;
 }
-.icon_item {
+.icon_item a {
   padding: 15px 15px 6px;
+  display: block;
 }
 .main_menu_list .dropdown-menu li:last-child a {
   border-bottom: 0;
@@ -700,9 +701,6 @@ input::placeholder {
 }
 
 @media (max-width: 1024px) {
-  .icon_mobile_box.top_icon_box .dropdown-menu {
-    top: calc(100% + 3px);
-  }
   .header_mobile {
     display: block;
   }
@@ -881,14 +879,11 @@ input::placeholder {
   .icon_mobile_box i.bx {
     font-size: 22px;
   }
-  .icon_item {
+  .icon_item a {
     padding: 13px 7px 6px;
   }
   .icon_mobile_box {
     right: 50px;
-  }
-  .icon_mobile_box {
-    top: 3px;
   }
 }
 @media (max-width: 290px) {
