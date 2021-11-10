@@ -86,14 +86,14 @@ body.mmactive {
 }
 
 .sm_menu_outer .mobile_menu li.back a {
-  padding: 20px 5px 20px 45px;
+  padding: 20px 5px 15px 45px;
   background: #fff;
   position: relative;
 }
 
 .sm_menu_outer .mobile_menu li.back a:before {
-  font-family: "Font Awesome\ 5 Free";
-  content: "\f053";
+  font-family: "boxicons";
+  content: "\ecb0";
   position: absolute;
   left: 15px;
   top: 14px;
@@ -145,11 +145,11 @@ body.mmactive {
 }
 
 .sm_menu_outer .mobile_menu li.hasChild > a:after {
-  font: "normal normal normal 14px/1 FontAwesome";
-  content: "\f105";
+  font-family: "boxicons";
+  content: "\ecb3";
   position: absolute;
   right: 15px;
-  top: 3px;
+  top: -3px;
   font-size: 32px;
 }
 
