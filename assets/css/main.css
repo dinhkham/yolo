@@ -570,6 +570,8 @@ input::placeholder {
 }
 .cart_box .icon {
   text-align: center;
+}
+.icon_mobile_box .cart_box .icon i.bx {
   font-size: 34px;
 }
 .cart_box {
@@ -697,6 +699,9 @@ input::placeholder {
 }
 
 @media (max-width: 1024px) {
+  .icon_mobile_box.top_icon_box .dropdown-menu {
+    top: calc(100% + 3px);
+  }
   .header_mobile {
     display: block;
   }
