@@ -885,6 +885,13 @@ input::placeholder {
   .icon_mobile_box {
     right: 50px;
   }
+  .cart_box:after,
+  .top_icon_box .dropdown_list_item .nav-pills:after {
+    right: 8px;
+  }
+  .icon_mobile_box .search_form:after {
+    right: 10px;
+  }
 }
 @media (max-width: 290px) {
   .icon_mobile_box {
