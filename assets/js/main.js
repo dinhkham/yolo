@@ -33,4 +33,12 @@ $(function () {
       }
     });
   }
+  $("#sm_menu_ham").click(function () {
+    var $this = $(this);
+    if ($this.hasClass("open")) {
+      $(".icon_mobile_box").hide();
+    } else {
+      $(".icon_mobile_box").css("display", "flex");
+    }
+  });
 });
