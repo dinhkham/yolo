@@ -2,408 +2,793 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yolo</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./assets/fonts/css/all.min.css">
-    <link rel="stylesheet" href="./assets/fonts/boxicons/boxicons-2.0.9/css/boxicons.min.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
-    <script src="./assets/js/jquery-3.3.1.min.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-    <script src="./assets/js/owl.carousel.min.js"></script>
-    <script src="./assets/js/main.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yolo</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./assets/fonts/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/animate.min.css">
+  <link rel="stylesheet" href="./assets/fonts/boxicons/boxicons-2.0.9/css/boxicons.min.css">
+  <link rel="stylesheet" href="./assets/css/mobilemenu.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
+  <script src="./assets/js/jquery-3.3.1.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/owl.carousel.min.js"></script>
+  <script src="./assets/js/wow.min.js"></script>
+  <script src="./assets/js/jquery-simple-mobilemenu.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </head>
 
 <body>
-    <header id="header" class="header">
-        <div class="header_desktop main_container position-relative">
-            <div class="menu_box">
-                <nav class="main_menu">
-                    <ul class="main_menu_list list_style_none d-flex">
-                        <li class="item active">
-                            <a href="#">Trang chủ</a>
-                        </li>
-                        <li class="item ">
-                            <a href="#">Sản phẩm</a>
-                        </li>
-                        <li class="item ">
-                            <a href="#">Phụ kiện</a>
-                        </li>
-                        <li class="item ">
-                            <a href="#">Liên hệ</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="logo_box">
-                <a href="#">
-                    <img src="./assets/images/Logo-2.png" alt="Yolo" width="" height="">
-                </a>
-            </div>
-            <div class="top_icon_box d-flex">
-                <div class="icon_item">
-                    <a href="#"><i class='bx bx-search'></i></a>
-                </div>
-                <div class="icon_item">
-                    <a href="#"><i class='bx bx-shopping-bag'></i></a>
-                </div>
-                <div class="icon_item">
-                    <a href="#"><i class='bx bx-user'></i></a>
-                </div>
+  <header id="header" class="header">
+    <div class="header_desktop container_box position-relative hidden1024">
+      <div class="menu_box">
+        <nav class="main_menu">
+          <ul class="main_menu_list list_style_none d-flex">
+            <li class="item active">
+              <a href="#">Trang chủ</a>
+            </li>
+            <li class="item subMenu position-relative">
+              <a class="" data-toggle="dropdown" href="javascript:void(0);" title="Sản phẩm">Sản
+                phẩm
+              </a>
+              <div class="dropdown-menu dropdown_list_item">
+                <ul class="nav nav-pills ">
+                  <li>
+                    <a class="navigation__link" href="#" title="Top sản phẩm">Top sản phẩm</a>
+                  </li>
+                  <li>
+                    <a class="navigation__link" href="#" title="Sản phẩm mới">Sản phẩm mới</a>
+                  </li>
+                  <li>
+                    <a class="navigation__link" href="#" title="Phổ biến">Phổ biến</a>
+                  </li>
+                </ul>
 
-
-
-            </div>
+              </div>
+            </li>
+            <li class="item ">
+              <a href="#">Phụ kiện</a>
+            </li>
+            <li class="item ">
+              <a href="#">Liên hệ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="logo_box">
+        <a href="#" title="Yolo">
+          <img src="./assets/images/Logo-2.png" alt="Yolo" width="" height="">
+        </a>
+      </div>
+      <div class="top_icon_box d-flex">
+        <div class="icon_item">
+          <a href="#"><i class='bx bx-search'></i></a>
         </div>
-    </header>
-    <main id="main" class="main_container">
-        <section class="slider_box">
-            <div class="owl-carousel yolo_slider">
-                <div class="slider_item">
-                    <div class="body">
-                        <h3>Polo nữ Pima cao cấp</h3>
-                        <div class="slider_content">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi beatae inventore nihil
-                            reiciendis quisquam laborum voluptatem rem culpa minus pariatur sunt, mollitia eos illum
-                            vitae, minima adipisci? At, ab? Quod voluptas labore excepturi odio officiis, harum
-                            inventore dolorem! Voluptatibus numquam totam est! Vero asperiores ad porro animi eius
-                            consectetur nisi?
-                        </div>
-                        <a href="#" class="view_more">Xem chi tiết</a>
-                    </div>
-                    <div class="image">
-                        <div class="background_slider"></div>
-                        <img src="./assets/images/slider/slide_1.png" alt="">
-                    </div>
+        <div class="icon_item">
+          <a href="#"><i class='bx bx-shopping-bag'></i></a>
+        </div>
+        <div class="icon_item subMenu position-relative">
+          <a href="#" data-toggle="dropdown" href="javascript:void(0);"><i
+              class='bx bx-user'></i></a>
+          <div class="dropdown-menu dropdown-menu-right dropdown_list_item">
+            <ul class="nav nav-pills ">
+              <li>
+                <a class="navigation__link login" href="#" title="Đăng nhập">Đăng nhập</a>
+              </li>
+              <li>
+                <a class="navigation__link sign_up" href="#" title="Đăng ký">Đăng ký</a>
+              </li>
 
-                </div>
-                <div class="slider_item">
-                    <div class="body">
-                        <h3>Polo nữ Pima cao cấp</h3>
-                        <div class="slider_content">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam reprehenderit officia
-                            repellendus nesciunt. Laboriosam, ipsam obcaecati harum provident fuga hic dolore eligendi
-                            sapiente aspernatur voluptate suscipit laudantium, repudiandae numquam excepturi quos neque
-                            error architecto minus consequuntur repellat magnam recusandae, cum consequatur!
-                            Exercitationem nisi rerum maiores. Ut numquam delectus sapiente ducimus.
-                        </div>
-                        <a href="#" class="view_more">Xem chi tiết</a>
-                    </div>
-                    <div class="image">
-                        <img src="./assets/images/slider/slide_1.png" alt="">
-                    </div>
+            </ul>
 
-                </div>
-                <div class="slider_item">
-                    <div class="body">
-                        <h3>Polo nữ Pima cao cấp</h3>
-                        <div class="slider_content">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam reprehenderit officia
-                            repellendus nesciunt. Laboriosam, ipsam obcaecati harum provident fuga hic dolore eligendi
-                            sapiente aspernatur voluptate suscipit laudantium, repudiandae numquam excepturi quos neque
-                            error architecto minus consequuntur repellat magnam recusandae, cum consequatur!
-                            Exercitationem nisi rerum maiores. Ut numquam delectus sapiente ducimus.
-                        </div>
-                        <a href="#" class="view_more">Xem chi tiết</a>
-                    </div>
-                    <div class="image">
-                        <img src="./assets/images/slider/slide_1.png" alt="">
-                    </div>
+          </div>
+        </div>
 
-                </div>
+
+
+      </div>
+    </div>
+    <div class="header_mobile">
+      <div class="logo-port">
+        <p>
+          <a href="index.html" title="Yolo">
+            <img class="img-responsive img100" alt="Yolo" src="./assets/images/Logo-2.png" />
+          </a>
+        </p>
+      </div>
+      <ul class="main__menu--list list_style_none mobile_menu">
+        <li class="item active"><a class="navigation__link" href="#" title="Trang chủ">Trang chủ</a>
+        </li>
+        <li class="item relative">
+          <a class="" data-toggle="dropdown" href="javascript:void(0);" title="Sản phẩm">Sản phẩm
+          </a>
+          <ul class="submenu">
+            <li>
+              <a class="navigation__link" href="#" title="Top sản phẩm">Top sản phẩm</a>
+            </li>
+            <li>
+              <a class="navigation__link" href="#" title="Sản phẩm mới">Sản phẩm mới</a>
+            </li>
+            <li>
+              <a class="navigation__link" href="#" title="Phổ biến">Phổ biến</a>
+            </li>
+          </ul>
+        </li>
+        <li class="item"><a class="navigation__link" href="#" title="Phụ kiện">Phụ kiện</a>
+        </li>
+        <li class="item"><a class="navigation__link" href="#" title="Liên hệ">Liên hệ</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main id="main" class="main_yolo">
+    <div class="container_box">
+      <section class="slider_box">
+        <div class="owl-carousel yolo_slider">
+          <div class="slider_item">
+            <div class="body">
+              <h3 class="wow fadeIn animated"
+                style="visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;"
+                data-wow-delay="0.3s">Polo nữ Pima cao cấp</h3>
+              <div class="wow fadeIn animated slider_content"
+                style="visibility: visible; -webkit-animation-delay: 0.6s; -moz-animation-delay: 0.6s; animation-delay: 0.6s;"
+                data-wow-delay="0.6s">
+                Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo lên chất
+                lượng tốt nhất cho bất kỳ sản phẩm thời trang nào.
+                Sợi vải cotton thông thường gấp đôi nhờ công nghệ dệt vải tân tiến.
+                Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm
+                mượt, bền màu, vô cùng đảm bảo sức khỏe cho người dùng.
+              </div>
+              <a href="#" class="view_more wow fadeIn animated" title="Xem chi tiết"
+                style="visibility: visible; -webkit-animation-delay: 0.9s; -moz-animation-delay: 0.9s; animation-delay: 0.9s;"
+                data-wow-delay="0.9s">Xem chi tiết</a>
             </div>
-        </section>
-        <section class="service_box">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="service_item d-flex">
-                        <div class="service_icon">
-                            <i class='bx bx-shopping-bag'></i>
-                        </div>
-                        <div class="service_body">
-                            <h3>Miễn phí giao hàng</h3>
-                            <div class="intro">
-                                Miễn phí ship với đơn hàng > 239k
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="service_item d-flex">
-                        <div class="service_icon">
-                            <i class='bx bx-credit-card'></i>
-                        </div>
-                        <div class="service_body">
-                            <h3>Miễn phí giao hàng</h3>
-                            <div class="intro">
-                                Thanh toán khi nhận hàng (COD)
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="service_item d-flex">
-                        <div class="service_icon">
-                            <i class='bx bx-diamond'></i>
-                        </div>
-                        <div class="service_body">
-                            <h3>Miễn phí giao hàng</h3>
-                            <div class="intro">
-                                Ưu đãi dành cho khách hàng vip
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="service_item d-flex">
-                        <div class="service_icon">
-                            <i class='bx bxs-donate-heart'></i>
-                        </div>
-                        <div class="service_body">
-                            <h3>Hỗ trợ bảo hành</h3>
-                            <div class="intro">
-                                Đổi sửa tất cả tại store
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="image ">
+              <div class="background_slider"></div>
+              <img class="" src="./assets/images/slider/slide_1.png" alt="">
             </div>
-        </section>
-        <section class="top_products_box">
-            <h2 class="section_title">Top sản phẩm bán chạy trong tuần</h2>
-            <div class="top_products_list">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="product_item text-center">
-                            <div class="product_image">
-                                <a href="#">
-                                    <img src="./assets/images/products/product-12 (1).jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="body">
-                                <h3 class="title"><a href="#" title="">Quần Jean 12</a></h3>
-                                <div class="product_price">
-                                    <span class="font-weight-bold">194,000</span>
-                                    <del>399,000</del>
-                                </div>
-                                <a href="" class="add_cart">Chọn mua</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="product_item text-center">
-                            <div class="product_image">
-                                <a href="#">
-                                    <img src="./assets/images/products/product-02 (1).jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="body">
-                                <h3 class="title"><a href="#" title="">Áo thun Dinosaur 13</a></h3>
-                                <div class="product_price">
-                                    <span class="font-weight-bold">189,000</span>
-                                    <del>399,000</del>
-                                </div>
-                                <a href="" class="add_cart">Chọn mua</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="product_item text-center">
-                            <div class="product_image">
-                                <a href="#">
-                                    <img src="./assets/images/products/product-02 (1).jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="body">
-                                <h3 class="title"><a href="#" title="">Áo thun Dinosaur 14</a></h3>
-                                <div class="product_price">
-                                    <span class="font-weight-bold">159,000</span>
-                                    <del>399,000</del>
-                                </div>
-                                <a href="" class="add_cart">Chọn mua</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="product_item text-center">
-                            <div class="product_image">
-                                <a href="#">
-                                    <img src="./assets/images/products/product-03 (1).jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="body">
-                                <h3 class="title"><a href="#" title="">Áo thun Dinosaur 15</a></h3>
-                                <div class="product_price">
-                                    <span class="font-weight-bold">190,000</span>
-                                    <del>399,000</del>
-                                </div>
-                                <a href="" class="add_cart">Chọn mua</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+          </div>
+          <div class="slider_item">
+            <div class="body">
+              <h3>Polo nữ Pima cao cấp</h3>
+              <div class="slider_content">
+                Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo lên chất
+                lượng tốt nhất cho bất kỳ sản phẩm thời trang nào.
+                Sợi vải cotton thông thường gấp đôi nhờ công nghệ dệt vải tân tiến.
+                Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm
+                mượt, bền màu, vô cùng đảm bảo sức khỏe cho người dùng.
+              </div>
+              <a href="#" class="view_more" title="Xem chi tiết">Xem chi tiết</a>
             </div>
-        </section>
-        <section class="new_products_box">
-            <h2 class="section_title">Sản phẩm mới</h2>
-            <div class="new_products_list">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="product_item text-center">
-                            <div class="product_image">
-                                <a href="#">
-                                    <img src="./assets/images/products/product-12 (1).jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="body">
-                                <h3 class="title"><a href="#" title="">Quần Jean 12</a></h3>
-                                <div class="product_price">
-                                    <span class="font-weight-bold">194,000</span>
-                                    <del>399,000</del>
-                                </div>
-                                <a href="" class="add_cart">Chọn mua</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="product_item text-center">
-                            <div class="product_image">
-                                <a href="#">
-                                    <img src="./assets/images/products/product-02 (1).jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="body">
-                                <h3 class="title"><a href="#" title="">Áo thun Dinosaur 13</a></h3>
-                                <div class="product_price">
-                                    <span class="font-weight-bold">189,000</span>
-                                    <del>399,000</del>
-                                </div>
-                                <a href="" class="add_cart">Chọn mua</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="product_item text-center">
-                            <div class="product_image">
-                                <a href="#">
-                                    <img src="./assets/images/products/product-02 (1).jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="body">
-                                <h3 class="title"><a href="#" title="">Áo thun Dinosaur 14</a></h3>
-                                <div class="product_price">
-                                    <span class="font-weight-bold">159,000</span>
-                                    <del>399,000</del>
-                                </div>
-                                <a href="" class="add_cart">Chọn mua</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="product_item text-center">
-                            <div class="product_image">
-                                <a href="#">
-                                    <img src="./assets/images/products/product-03 (1).jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="body">
-                                <h3 class="title"><a href="#" title="">Áo thun Dinosaur 15</a></h3>
-                                <div class="product_price">
-                                    <span class="font-weight-bold">190,000</span>
-                                    <del>399,000</del>
-                                </div>
-                                <a href="" class="add_cart">Chọn mua</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="image">
+              <div class="background_slider"></div>
+              <img src="./assets/images/slider/slide_2.png" alt="">
             </div>
-        </section>
-        <section class="banner_box">
-            <a href="" title="">
-                <img src="./assets/images/banner.png" alt="">
-            </a>
-        </section>
-        <section class="popular_products_box">
-            <h2 class="section_title">Phổ biến</h2>
-            <div class="popular_products_list">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="product_item text-center">
-                            <div class="product_image">
-                                <a href="#">
-                                    <img src="./assets/images/products/product-12 (1).jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="body">
-                                <h3 class="title"><a href="#" title="">Quần Jean 12</a></h3>
-                                <div class="product_price">
-                                    <span class="font-weight-bold">194,000</span>
-                                    <del>399,000</del>
-                                </div>
-                                <a href="" class="add_cart">Chọn mua</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="product_item text-center">
-                            <div class="product_image">
-                                <a href="#">
-                                    <img src="./assets/images/products/product-02 (1).jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="body">
-                                <h3 class="title"><a href="#" title="">Áo thun Dinosaur 13</a></h3>
-                                <div class="product_price">
-                                    <span class="font-weight-bold">189,000</span>
-                                    <del>399,000</del>
-                                </div>
-                                <a href="" class="add_cart">Chọn mua</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="product_item text-center">
-                            <div class="product_image">
-                                <a href="#">
-                                    <img src="./assets/images/products/product-02 (1).jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="body">
-                                <h3 class="title"><a href="#" title="">Áo thun Dinosaur 14</a></h3>
-                                <div class="product_price">
-                                    <span class="font-weight-bold">159,000</span>
-                                    <del>399,000</del>
-                                </div>
-                                <a href="" class="add_cart">Chọn mua</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="product_item text-center">
-                            <div class="product_image">
-                                <a href="#">
-                                    <img src="./assets/images/products/product-03 (1).jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="body">
-                                <h3 class="title"><a href="#" title="">Áo thun Dinosaur 15</a></h3>
-                                <div class="product_price">
-                                    <span class="font-weight-bold">190,000</span>
-                                    <del>399,000</del>
-                                </div>
-                                <a href="" class="add_cart">Chọn mua</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+          </div>
+          <div class="slider_item">
+            <div class="body">
+              <h3>Polo nữ Pima cao cấp</h3>
+              <div class="slider_content">
+                Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo lên chất
+                lượng tốt nhất cho bất kỳ sản phẩm thời trang nào.
+                Sợi vải cotton thông thường gấp đôi nhờ công nghệ dệt vải tân tiến.
+                Điều đó làm cho kết cấu áo polo chắc chắn, bền chặt, hạn chế tối đa xù lông, mềm
+                mượt, bền màu, vô cùng đảm bảo sức khỏe cho người dùng.
+              </div>
+              <a href="#" class="view_more" title="Xem chi tiết">Xem chi tiết</a>
             </div>
-        </section>
-    </main>
+            <div class="image">
+              <div class="background_slider"></div>
+              <img src="./assets/images/slider/slide_3.png" alt="">
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section class="service_box">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 wow fadeIn animated"
+            style="visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;"
+            data-wow-delay="0.3s">
+            <div class="service_item d-flex">
+              <div class="service_icon">
+                <i class='bx bx-shopping-bag'></i>
+              </div>
+              <div class="service_body">
+                <h3>Miễn phí giao hàng</h3>
+                <div class="intro">
+                  Miễn phí ship với đơn hàng > 239k
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeIn animated"
+            style="visibility: visible; -webkit-animation-delay: 0.6s; -moz-animation-delay: 0.6s; animation-delay: 0.6s;"
+            data-wow-delay="0.6s">
+            <div class="service_item d-flex">
+              <div class="service_icon">
+                <i class='bx bx-credit-card'></i>
+              </div>
+              <div class="service_body">
+                <h3>Miễn phí giao hàng</h3>
+                <div class="intro">
+                  Thanh toán khi nhận hàng (COD)
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeIn animated"
+            style="visibility: visible; -webkit-animation-delay: 0.9s; -moz-animation-delay: 0.9s; animation-delay: 0.9s;"
+            data-wow-delay="0.9s">
+            <div class="service_item d-flex">
+              <div class="service_icon">
+                <i class='bx bx-diamond'></i>
+              </div>
+              <div class="service_body">
+                <h3>Miễn phí giao hàng</h3>
+                <div class="intro">
+                  Ưu đãi dành cho khách hàng vip
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeIn animated"
+            style="visibility: visible; -webkit-animation-delay: 1.2s; -moz-animation-delay: 1.2s; animation-delay: 1.2s;"
+            data-wow-delay="1.2s">
+            <div class="service_item d-flex">
+              <div class="service_icon">
+                <i class='bx bxs-donate-heart'></i>
+              </div>
+              <div class="service_body">
+                <h3>Hỗ trợ bảo hành</h3>
+                <div class="intro">
+                  Đổi sửa tất cả tại store
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="top_products_box">
+        <h2 class="section_title">Top sản phẩm bán chạy trong tuần</h2>
+        <div class="top_products_list">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#" title="Quần Jean 12">
+                    <img src="./assets/images/products/product-12 (1).jpg" alt="Quần Jean 12">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Quần Jean 12">Quần Jean 12</a></h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">194,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#" title="Áo thun Dinosaur 13">
+                    <img src="./assets/images/products/product-01 (1).jpg"
+                      alt="Áo thun Dinosaur 13">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Áo thun Dinosaur 13">Áo thun Dinosaur 13</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">189,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#">
+                    <img src="./assets/images/products/product-02 (1).jpg"
+                      alt="Áo thun Dinosaur 14">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Áo thun Dinosaur 14">Áo thun Dinosaur 14</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">159,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#">
+                    <img src="./assets/images/products/product-03 (1).jpg"
+                      alt="Áo thun Dinosaur 15">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Áo thun Dinosaur 15">Áo thun Dinosaur 15</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">190,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="new_products_box">
+        <h2 class="section_title">Sản phẩm mới</h2>
+        <div class="new_products_list">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#" title="Áo sơ mi caro 07">
+                    <img src="./assets/images/products/product-07 (1).jpg" alt="Áo sơ mi caro 07">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Áo sơ mi caro 07">Áo sơ mi caro 07</a></h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">194,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#" title="Áo sơ mi dài tay 07">
+                    <img src="./assets/images/products/product-08 (1).jpg"
+                      alt="Áo sơ mi dài tay 07">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Áo sơ mi dài tay 08">Áo sơ mi dài tay 08</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">189,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#">
+                    <img src="./assets/images/products/product-09 (1).jpg"
+                      alt="Áo sơ mi dài tay 09">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Áo sơ mi dài tay 09">Áo sơ mi dài tay 09</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">159,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#">
+                    <img src="./assets/images/products/product-10 (1).jpg"
+                      alt="Quần jean phong cách 10">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Quần jean phong cách 10">Quần jean phong cách
+                      10</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">190,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#">
+                    <img src="./assets/images/products/product-11 (1).jpg" alt="Quần jean  11">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Quần jean 11">Quần jean
+                      11</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">190,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#">
+                    <img src="./assets/images/products/product-12 (1).jpg" alt="Quần jean  12">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Quần jean 12">Quần jean
+                      12</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">190,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#" title="Áo thun Dinosaur 13">
+                    <img src="./assets/images/products/product-01 (1).jpg"
+                      alt="Áo thun Dinosaur 13">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Áo thun Dinosaur 13">Áo thun Dinosaur 13</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">189,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#">
+                    <img src="./assets/images/products/product-02 (1).jpg"
+                      alt="Áo thun Dinosaur 14">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Áo thun Dinosaur 14">Áo thun Dinosaur 14</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">159,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="banner_box">
+        <a href="" title="">
+          <img src="./assets/images/banner.png" alt="">
+        </a>
+      </section>
+      <section class="popular_products_box">
+        <h2 class="section_title">Phổ biến</h2>
+        <div class="popular_products_list">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#">
+                    <img src="./assets/images/products/product-03 (1).jpg"
+                      alt="Áo thun Dinosaur 03">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Áo thun Dinosaur 03">Áo thun Dinosaur 03</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">190,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#">
+                    <img src="./assets/images/products/product-04 (1).jpg"
+                      alt="Áo thun Dinosaur 04">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Áo thun Dinosaur 04">Áo thun Dinosaur 04</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">159,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#">
+                    <img src="./assets/images/products/product-05 (1).jpg"
+                      alt="Áo thun Dinosaur 05">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Áo thun Dinosaur 05">Áo thun Dinosaur 05</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">159,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#">
+                    <img src="./assets/images/products/product-06 (1).jpg"
+                      alt="Áo thun Dinosaur 06">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Áo thun Dinosaur 06">Áo thun Dinosaur 06</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">159,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#" title="Áo sơ mi caro 07">
+                    <img src="./assets/images/products/product-07 (1).jpg" alt="Áo sơ mi caro 07">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Áo sơ mi caro 07">Áo sơ mi caro 07</a></h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">194,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#" title="Áo sơ mi dài tay 07">
+                    <img src="./assets/images/products/product-08 (1).jpg"
+                      alt="Áo sơ mi dài tay 07">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Áo sơ mi dài tay 08">Áo sơ mi dài tay 08</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">189,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#">
+                    <img src="./assets/images/products/product-09 (1).jpg"
+                      alt="Áo sơ mi dài tay 09">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Áo sơ mi dài tay 09">Áo sơ mi dài tay 09</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">159,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#">
+                    <img src="./assets/images/products/product-10 (1).jpg"
+                      alt="Quần jean phong cách 10">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Quần jean phong cách 10">Quần jean phong cách
+                      10</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">190,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#">
+                    <img src="./assets/images/products/product-11 (1).jpg" alt="Quần jean  11">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Quần jean 11">Quần jean
+                      11</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">190,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#">
+                    <img src="./assets/images/products/product-12 (1).jpg" alt="Quần jean  12">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Quần jean 12">Quần jean
+                      12</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">190,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#" title="Áo thun Dinosaur 13">
+                    <img src="./assets/images/products/product-01 (1).jpg"
+                      alt="Áo thun Dinosaur 13">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Áo thun Dinosaur 13">Áo thun Dinosaur 13</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">189,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="product_item text-center">
+                <div class="product_image">
+                  <a href="#">
+                    <img src="./assets/images/products/product-02 (1).jpg"
+                      alt="Áo thun Dinosaur 14">
+                  </a>
+                </div>
+                <div class="body">
+                  <h3 class="title"><a href="#" title="Áo thun Dinosaur 14">Áo thun Dinosaur 14</a>
+                  </h3>
+                  <div class="product_price">
+                    <span class="font-weight-bold">159,000</span>
+                    <del>399,000</del>
+                  </div>
+                  <a href="" class="add_cart" title="Chọn mua">Chọn mua</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer id="footer" class="footer">
+    <div class="container_box">
+      <div class="row">
+        <div class="col-xl-3 col-md-6 col-12 col_footer">
+          <div class="contact_box">
+            <h4 class="text-uppercase">Tổng đài hỗ trợ</h4>
+            <p>Liên hệ đặt hàng <strong>0123456789</strong></p>
+            <p>Thắc mắc đơn hàng <strong>0123456789</strong></p>
+            <p>Góp ý khiếu nại <strong>0123456789</strong></p>
+          </div>
+
+
+
+        </div>
+        <div class="col-xl-3 col-md-6 col-12 col_footer">
+          <div class="about_yolo">
+            <h4 class="text-uppercase">Tổng đài hỗ trợ</h4>
+            <p><a href="">Giới thiệu</a></p>
+            <p><a href="">Liên hệ</a></p>
+            <p><a href="">Tuyển dụng</a></p>
+            <p><a href="">Tin tức</a></p>
+            <p><a href="">Hệ thống cửa hàng</a></p>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-12 col_footer">
+          <div class="support_yolo">
+            <h4 class="text-uppercase">Chăm sóc khách hàng</h4>
+            <p><a href="">Chính sách đổi trả</a></p>
+            <p><a href="">Chính sách bảo hành</a></p>
+            <p><a href="">Chính sách hoàn tiền</a></p>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-12 col_footer">
+          <div class="intro_yolo">
+            <p class="logo_footer">
+              <a href="" title="Yolo">
+                <img src="./assets/images/Logo-2.png" alt="Yolo">
+              </a>
+            </p>
+            <div class="intro">
+              Hướng đến mục tiêu đem lại niềm vui ăn mặc mới mỗi ngày cho hàng triệu người tiêu dùng
+              Việt.
+              Hãy cùng Yolo hướng đến cuộc sống năng động, tích cực hơn.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
 </body>
 
 </html>

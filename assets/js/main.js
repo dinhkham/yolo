@@ -1,45 +1,36 @@
 $(function () {
-    
-    if ($('.yolo_slider').length > 0) {
-        var $owl = $('.yolo_slider');
-        $owl.owlCarousel({
-            loop: true,
-            nav: true,
-            dots: true,
-            navText : ["<i class='bx bx-chevron-left' ></i>","<i class='bx bx-chevron-right' ></i>"],
-            items: 1
-        });
-    }
-    
-    if ($('.mobile_menu').length > 0) {
-        $(".mobile_menu").slideMobileMenu({
+  if ($(".yolo_slider").length > 0) {
+    var $owl = $(".yolo_slider");
+    $owl.owlCarousel({
+      loop: true,
+      nav: true,
+      dots: true,
+      navText: ["<i class='bx bx-chevron-left' ></i>", "<i class='bx bx-chevron-right' ></i>"],
+      items: 1,
+    });
+  }
 
-            onMenuLoad: function (menu) {
-    
-                console.log(menu)
-    
-            },
-    
-            onMenuToggle: function (menu, opened) {
-    
-                console.log(opened)
-    
-            }
-    
-        });
-    }
-    var $ww = $(window).width();
-    if($ww>1024){
-        $(window).scroll(function(){
-            scroll = $(window).scrollTop();
-            if (scroll >= 35){
-                $('#header').addClass('fixed');
-            }
-            else{
-                $('#header').removeClass('fixed');
-            }
-        });
-    
-    }
-    
+  if ($(".mobile_menu").length > 0) {
+    $(".mobile_menu").slideMobileMenu({
+      onMenuLoad: function (menu) {
+        console.log(menu);
+      },
+
+      onMenuToggle: function (menu, opened) {
+        console.log(opened);
+      },
+    });
+  }
+  var $ww = $(window).width();
+  if ($ww > 1024) {
+    $(window).scroll(function () {
+      var $sticky = $("#header");
+      scroll = $(window).scrollTop();
+      if (scroll >= 35) {
+        $sticky.addClass("fixed");
+      } else {
+        $sticky.removeClass("fixed");
+      }
+    });
+  }
 });
