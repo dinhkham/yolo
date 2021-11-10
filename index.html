@@ -32,7 +32,7 @@
         <nav class="main_menu">
           <ul class="main_menu_list list_style_none d-flex">
             <li class="item active">
-              <a href="#">Trang chủ</a>
+              <a href="#" title="Trang chủ">Trang chủ</a>
             </li>
             <li class="item subMenu position-relative">
               <a class="" data-toggle="dropdown" href="javascript:void(0);" title="Sản phẩm">Sản
@@ -54,10 +54,10 @@
               </div>
             </li>
             <li class="item ">
-              <a href="#">Phụ kiện</a>
+              <a href="#" title="Phụ kiện">Phụ kiện</a>
             </li>
             <li class="item ">
-              <a href="#">Liên hệ</a>
+              <a href="#" title="Liên hệ">Liên hệ</a>
             </li>
           </ul>
         </nav>
@@ -68,31 +68,46 @@
         </a>
       </div>
       <div class="top_icon_box d-flex">
-        <div class="icon_item">
-          <a href="#"><i class='bx bx-search'></i></a>
+
+        <div class="icon_item subMenu position-relative">
+          <a href="#" data-toggle="dropdown" href="javascript:void(0);">
+            <i class='bx bx-search'></i></a>
+          <div class="dropdown-menu  dropdown_list_item">
+            <form action="" method="" class="position-relative search_form">
+              <input class="input_search" type="text" name="" placeholder="Tìm kiếm....">
+              <button class="btn btn_search"> <i class='bx bx-search'></i></a></button>
+            </form>
+          </div>
         </div>
-        <div class="icon_item">
-          <a href="#"><i class='bx bx-shopping-bag'></i></a>
+
+        <div class="icon_item subMenu position-relative">
+          <a href="#" data-toggle="dropdown" href="javascript:void(0);"><i
+              class='bx bx-shopping-bag'></i></a>
+          <div class="dropdown-menu dropdown-menu-right dropdown_list_item">
+            <div class="cart_box position-relative">
+              <div class="icon">
+                <i class='bx bxl-shopify'></i>
+              </div>
+              <div class="note">
+                Chưa có sản phẩm nào
+              </div>
+            </div>
+          </div>
         </div>
         <div class="icon_item subMenu position-relative">
           <a href="#" data-toggle="dropdown" href="javascript:void(0);"><i
               class='bx bx-user'></i></a>
           <div class="dropdown-menu dropdown-menu-right dropdown_list_item">
-            <ul class="nav nav-pills ">
+            <ul class="nav nav-pills position-relative">
               <li>
                 <a class="navigation__link login" href="#" title="Đăng nhập">Đăng nhập</a>
               </li>
               <li>
                 <a class="navigation__link sign_up" href="#" title="Đăng ký">Đăng ký</a>
               </li>
-
             </ul>
-
           </div>
         </div>
-
-
-
       </div>
     </div>
     <div class="header_mobile">
@@ -102,6 +117,47 @@
             <img class="img-responsive img100" alt="Yolo" src="./assets/images/Logo-2.png" />
           </a>
         </p>
+      </div>
+      <div class="icon_mobile_box top_icon_box">
+        <div class="icon_item subMenu position-relative">
+          <a href="#" data-toggle="dropdown" href="javascript:void(0);">
+            <i class='bx bx-search'></i></a>
+          <div class="dropdown-menu  dropdown_list_item">
+            <form action="" method="" class="position-relative search_form">
+              <input class="input_search" type="text" name="" placeholder="Tìm kiếm....">
+              <button class="btn btn_search"> <i class='bx bx-search'></i></a></button>
+            </form>
+          </div>
+        </div>
+
+        <div class="icon_item subMenu position-relative">
+          <a href="#" data-toggle="dropdown" href="javascript:void(0);"><i
+              class='bx bx-shopping-bag'></i></a>
+          <div class="dropdown-menu dropdown-menu-right dropdown_list_item">
+            <div class="cart_box position-relative">
+              <div class="icon">
+                <i class='bx bxl-shopify'></i>
+              </div>
+              <div class="note">
+                Chưa có sản phẩm nào
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="icon_item subMenu position-relative">
+          <a href="#" data-toggle="dropdown" href="javascript:void(0);"><i
+              class='bx bx-user'></i></a>
+          <div class="dropdown-menu dropdown-menu-right dropdown_list_item">
+            <ul class="nav nav-pills position-relative">
+              <li>
+                <a class="navigation__link login" href="#" title="Đăng nhập">Đăng nhập</a>
+              </li>
+              <li>
+                <a class="navigation__link sign_up" href="#" title="Đăng ký">Đăng ký</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
       <ul class="main__menu--list list_style_none mobile_menu">
         <li class="item active"><a class="navigation__link" href="#" title="Trang chủ">Trang chủ</a>
@@ -160,7 +216,7 @@
           </div>
           <div class="slider_item">
             <div class="body">
-              <h3>Polo nữ Pima cao cấp</h3>
+              <h3>Jean nữ Pima cao cấp</h3>
               <div class="slider_content">
                 Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo lên chất
                 lượng tốt nhất cho bất kỳ sản phẩm thời trang nào.
@@ -180,7 +236,7 @@
           </div>
           <div class="slider_item">
             <div class="body">
-              <h3>Polo nữ Pima cao cấp</h3>
+              <h3>Thun nữ Pima cao cấp</h3>
               <div class="slider_content">
                 Nhắc đến sự đẳng cấp là không thể không nhắc đến dòng vải pima. Nó tạo lên chất
                 lượng tốt nhất cho bất kỳ sản phẩm thời trang nào.
@@ -203,8 +259,8 @@
       <section class="service_box">
         <div class="row">
           <div class="col-lg-3 col-md-6 wow fadeIn animated"
-            style="visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;"
-            data-wow-delay="0.3s">
+            style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;"
+            data-wow-delay="0.2s">
             <div class="service_item d-flex">
               <div class="service_icon">
                 <i class='bx bx-shopping-bag'></i>
@@ -218,8 +274,8 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-6 wow fadeIn animated"
-            style="visibility: visible; -webkit-animation-delay: 0.6s; -moz-animation-delay: 0.6s; animation-delay: 0.6s;"
-            data-wow-delay="0.6s">
+            style="visibility: visible; -webkit-animation-delay: 0.4s; -moz-animation-delay: 0.4s; animation-delay: 0.4s;"
+            data-wow-delay="0.4s">
             <div class="service_item d-flex">
               <div class="service_icon">
                 <i class='bx bx-credit-card'></i>
@@ -233,8 +289,8 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-6 wow fadeIn animated"
-            style="visibility: visible; -webkit-animation-delay: 0.9s; -moz-animation-delay: 0.9s; animation-delay: 0.9s;"
-            data-wow-delay="0.9s">
+            style="visibility: visible; -webkit-animation-delay: 0.6s; -moz-animation-delay: 0.6s; animation-delay: 0.6s;"
+            data-wow-delay="0.6s">
             <div class="service_item d-flex">
               <div class="service_icon">
                 <i class='bx bx-diamond'></i>
@@ -248,8 +304,8 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-6 wow fadeIn animated"
-            style="visibility: visible; -webkit-animation-delay: 1.2s; -moz-animation-delay: 1.2s; animation-delay: 1.2s;"
-            data-wow-delay="1.2s">
+            style="visibility: visible; -webkit-animation-delay: 0.8s; -moz-animation-delay: 0.8s; animation-delay: 0.8s;"
+            data-wow-delay="0.8s">
             <div class="service_item d-flex">
               <div class="service_icon">
                 <i class='bx bxs-donate-heart'></i>
@@ -750,9 +806,12 @@
         <div class="col-xl-3 col-md-6 col-12 col_footer">
           <div class="contact_box">
             <h4 class="text-uppercase">Tổng đài hỗ trợ </h4>
-            <p>Liên hệ đặt hàng <strong>0123456789</strong></p>
-            <p>Thắc mắc đơn hàng <strong>0123456789</strong></p>
-            <p>Góp ý khiếu nại <strong>0123456789</strong></p>
+            <p>Liên hệ đặt hàng <a title="0123456789" href="tel:0123456789"
+                class="font-weight-bold">0123456789</a></p>
+            <p>Thắc mắc đơn hàng <a title="0123456789" href="tel:0123456789"
+                class="font-weight-bold">0123456789</a></p>
+            <p>Góp ý khiếu nại <a title="0123456789" href="tel:0123456789"
+                class="font-weight-bold">0123456789</a></p>
           </div>
         </div>
         <div class="col-xl-3 col-md-6 col-12 col_footer">
