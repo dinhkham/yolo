@@ -86,6 +86,56 @@ a:hover {
 .semni_bold {
   font-weight: 600;
 }
+.limit_line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.limit_2line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* .animate_0_2 {
+  visibility: visible;
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+.animate_0_3 {
+  visibility: visible;
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+.animate_0_4 {
+  visibility: visible;
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+.animate_0_6 {
+  visibility: visible;
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+.animate_0_8 {
+  visibility: visible;
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+.animate_0_9 {
+  visibility: visible;
+  -webkit-animation-delay: 0.9s;
+  -moz-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+} */
 /* header */
 .header {
   position: fixed;
@@ -398,6 +448,7 @@ a:hover {
 .service_body .intro {
   font-size: 14px;
   color: #555;
+  -webkit-line-clamp: 1;
 }
 .service_item {
   padding: 15px 30px 15px 25px;
@@ -816,6 +867,13 @@ input::placeholder {
   .product_item {
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .service_body .intro {
+    height: 44px;
+    -webkit-line-clamp: 2;
   }
 }
 @media (max-width: 767px) {
