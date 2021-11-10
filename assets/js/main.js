@@ -1,4 +1,5 @@
 $(function () {
+  new WOW().init();
   if ($(".yolo_slider").length > 0) {
     var $owl = $(".yolo_slider");
     $owl.owlCarousel({
@@ -12,13 +13,9 @@ $(function () {
 
   if ($(".mobile_menu").length > 0) {
     $(".mobile_menu").slideMobileMenu({
-      onMenuLoad: function (menu) {
-        console.log(menu);
-      },
+      onMenuLoad: function (menu) {},
 
-      onMenuToggle: function (menu, opened) {
-        console.log(opened);
-      },
+      onMenuToggle: function (menu, opened) {},
     });
   }
   $(window).scroll(function () {
@@ -31,8 +28,7 @@ $(function () {
     }
   });
   $("#sm_menu_ham").click(function () {
-    var $this = $(this);
-    if ($this.hasClass("open")) {
+    if ($(this).hasClass("open")) {
       $(".icon_mobile_box").hide();
     } else {
       $(".icon_mobile_box").css("display", "flex");
